@@ -4,6 +4,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 1;
+  background-color: inherit;
 }
 
 .logo img {
@@ -26,4 +28,24 @@ header {
 a {
   color: inherit;
   padding: 10px;
+}
+
+.container {
+  display: flex;
+  margin-top: 69px;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  background-image: url("/Users/paularrj/Documents/projects/teacozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background-color: black;
+  width: 100%;
 }
