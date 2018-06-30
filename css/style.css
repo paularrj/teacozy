@@ -45,7 +45,7 @@ a {
 }
 
 .first {
-  background-image: url("/Users/paularrj/Documents/projects/teacozy/resources/images/img-mission-background.jpg");
+  background-image: url("../resources/images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
 }
@@ -83,4 +83,30 @@ h4, h2 {
 .image img {
   width: 300px;
   height: 200px;
+}
+
+.third {
+  flex-direction: column;
+  background-image: url("../resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.patch {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+
+}
+
+.east, .oakdale {
+  margin-left: 40px;
 }
